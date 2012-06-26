@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>NUnit Test</Name>
+    <Description>Item template for a NUnit test.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Test</ProjectSubType>
+    <TemplateID>TestProject-V1-NUnitTest</TemplateID>
+    <TemplateGroupID>TestProject-V1</TemplateGroupID>
+    <SortOrder>80</SortOrder>
+    <DefaultName>Test.cs</DefaultName>
+    <Icon>NUnitTestClass.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true">Test.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
