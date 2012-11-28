@@ -1,10 +1,9 @@
-﻿[$RootKey$\MVC3\TestProjectTemplates\NUnit]
+﻿[$RootKey$\Packages\{0B3D944F-14D6-4104-A69C-8F872746BA7F}]
+[$RootKey$\MVC3\TestProjectTemplates\NUnit]
 "Path"="CSharp\\Test"
 "Package"="{0B3D944F-14D6-4104-A69C-8F872746BA7F}"
 "Template"="ProjectTemplate.v3.cs.zip"
 "TestFrameworkName"="NUnit"
-[$RootKey$\Menus]
-"{0B3D944F-14D6-4104-A69C-8F872746BA7F}"=", Menus.ctmenu, 1"
 [$RootKey$\MVC4\TestProjectTemplates\NUnit]
 "Path"="CSharp\\Test"
 "Package"="{0B3D944F-14D6-4104-A69C-8F872746BA7F}"

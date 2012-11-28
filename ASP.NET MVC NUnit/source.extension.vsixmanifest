@@ -3,7 +3,7 @@
   <Identifier Id="ASP.NET_MVC_NUnit.Microsoft.0b3d944f-14d6-4104-a69c-8f872746ba7f">
     <Name>ASP.NET MVC NUnit</Name>
     <Author>Marcus Kimpenhaus</Author>
-    <Version>0.5</Version>
+    <Version>0.6</Version>
     <Description xml:space="preserve">Adds a project and an item template to generate NUnit based tests of ASP.NET MVC 3 and ASP.NET MVC 4 applications. NUnit as NuGet package is included and does not require any dedicated installation anymore.</Description>
     <Locale>1033</Locale>
     <MoreInfoUrl>http://visualstudiogallery.msdn.microsoft.com/7f3bdc82-f418-41aa-ad15-f1d6f89df47a</MoreInfoUrl>
@@ -16,8 +16,13 @@
         <Edition>Premium</Edition>
         <Edition>Pro</Edition>
       </VisualStudio>
+      <VisualStudio Version="11.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+      </VisualStudio>
     </SupportedProducts>
-    <SupportedFrameworkRuntimeEdition MinVersion="2.0" MaxVersion="4.0" />
+    <SupportedFrameworkRuntimeEdition MinVersion="2.0" MaxVersion="4.5" />
   </Identifier>
   <References>
     <Reference Id="NuPackToolsVsix.Microsoft.67e54e40-0ae3-42c5-a949-fddf5739e7a5" MinVersion="1.5.0.0">
