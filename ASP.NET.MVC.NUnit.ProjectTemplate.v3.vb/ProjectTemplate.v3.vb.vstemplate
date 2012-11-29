@@ -1,9 +1,9 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
     <TemplateData>
-        <Name Package="{A1BB2B4F-244B-45DD-BA07-29367F54B826}"/>
-        <Description Package="{A1BB2B4F-244B-45DD-BA07-29367F54B826}"/>
+        <Name Package="{E0915DB0-C6DC-4BF6-AEBF-9D72308FDB81}"/>
+        <Description Package="{E0915DB0-C6DC-4BF6-AEBF-9D72308FDB81}"/>
         <Icon>NUnitProject.ico</Icon>
-        <ProjectType>CSharp</ProjectType>
+        <ProjectType>VisualBasic</ProjectType>
         <ProjectSubType>Test</ProjectSubType>
         <SortOrder>1000</SortOrder>
         <CreateNewFolder>true</CreateNewFolder>
@@ -14,7 +14,7 @@
         <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
         <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
         <Hidden>true</Hidden>
-        <TemplateID>MvcWebApplicationNUnitTestProjectTemplate.cs.vstemplate.v4</TemplateID>
+        <TemplateID>MvcWebApplicationNUnitTestProjectTemplate.vb.vstemplate.v301</TemplateID>
     </TemplateData>
     <TemplateContent>
         <CustomParameters>

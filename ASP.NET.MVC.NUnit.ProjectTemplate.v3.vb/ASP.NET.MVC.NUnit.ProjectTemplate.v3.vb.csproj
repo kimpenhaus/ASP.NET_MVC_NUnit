@@ -5,11 +5,11 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{629D0739-8D0A-42AA-BDB7-47818379FBBF}</ProjectGuid>
+    <ProjectGuid>{F4895CBD-8DB7-452B-982F-CEA3F2EEE9DD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ASP.NET.MVC.NUnit.ItemTemplate</RootNamespace>
-    <AssemblyName>ASP.NET.MVC.NUnit.ItemTemplate</AssemblyName>
+    <RootNamespace>ASP.NET.MVC.NUnit.ProjectTemplate.v3.vb</RootNamespace>
+    <AssemblyName>ASP.NET.MVC.NUnit.ProjectTemplate.v3.vb</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -54,21 +54,29 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Controllers\HomeControllerTest.cs" />
     <None Include="Properties\AssemblyInfo.cs" />
-    <None Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="ItemTemplate.vstemplate">
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MvcApplicationTest.csproj">
+      <SubType>Designer</SubType>
+    </None>
+    <VSTemplate Include="ProjectTemplate.v3.vb.vstemplate">
       <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
   <ItemGroup>
-    <None Include="NUnitTestClass.ico" />
+    <None Include="NUnitProject.ico" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

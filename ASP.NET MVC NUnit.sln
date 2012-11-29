@@ -1,13 +1,17 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET MVC NUnit", "ASP.NET MVC NUnit\ASP.NET MVC NUnit.csproj", "{3CE7E7A4-C4CD-49F6-9E18-FD42AD108AF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.MVC.NUnit.ProjectTemplate.v3", "ASP.NET.MVC.NUnit.ProjectTemplate.v3\ASP.NET.MVC.NUnit.ProjectTemplate.v3.csproj", "{4225B196-885D-4B5E-9BEA-CF6DCCC98FF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.MVC.NUnit.ProjectTemplate.v3.cs", "ASP.NET.MVC.NUnit.ProjectTemplate.v3.cs\ASP.NET.MVC.NUnit.ProjectTemplate.v3.cs.csproj", "{4225B196-885D-4B5E-9BEA-CF6DCCC98FF9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.MVC.NUnit.ItemTemplate", "ASP.NET.MVC.NUnit.ItemTemplate\ASP.NET.MVC.NUnit.ItemTemplate.csproj", "{629D0739-8D0A-42AA-BDB7-47818379FBBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.MVC.NUnit.ProjectTemplate.v4", "ASP.NET.MVC.NUnit.ProjectTemplate.v4\ASP.NET.MVC.NUnit.ProjectTemplate.v4.csproj", "{4B4F7642-8B60-4066-8FE7-9173324A8D18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs", "ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs\ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs.csproj", "{4B4F7642-8B60-4066-8FE7-9173324A8D18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.MVC.NUnit.ProjectTemplate.v3.vb", "ASP.NET.MVC.NUnit.ProjectTemplate.v3.vb\ASP.NET.MVC.NUnit.ProjectTemplate.v3.vb.csproj", "{F4895CBD-8DB7-452B-982F-CEA3F2EEE9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb", "ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb\ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb.csproj", "{FDFEBAC3-D757-4F93-B7F4-3E2BC005DFB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,14 @@ Global
 		{4B4F7642-8B60-4066-8FE7-9173324A8D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B4F7642-8B60-4066-8FE7-9173324A8D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B4F7642-8B60-4066-8FE7-9173324A8D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4895CBD-8DB7-452B-982F-CEA3F2EEE9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4895CBD-8DB7-452B-982F-CEA3F2EEE9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4895CBD-8DB7-452B-982F-CEA3F2EEE9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4895CBD-8DB7-452B-982F-CEA3F2EEE9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFEBAC3-D757-4F93-B7F4-3E2BC005DFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFEBAC3-D757-4F93-B7F4-3E2BC005DFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFEBAC3-D757-4F93-B7F4-3E2BC005DFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFEBAC3-D757-4F93-B7F4-3E2BC005DFB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

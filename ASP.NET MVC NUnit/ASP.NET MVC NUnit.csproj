@@ -78,21 +78,37 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
     </ProjectReference>
-    <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v3\ASP.NET.MVC.NUnit.ProjectTemplate.v3.csproj">
-      <Project>{4225B196-885D-4B5E-9BEA-CF6DCCC98FF9}</Project>
-      <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v3</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v3.cs\ASP.NET.MVC.NUnit.ProjectTemplate.v3.cs.csproj">
+      <Project>{4225b196-885d-4b5e-9bea-cf6dccc98ff9}</Project>
+      <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v3.cs</Name>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
-      <TemplateType>Project</TemplateType>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <TemplateType>Project</TemplateType>
     </ProjectReference>
-    <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v4\ASP.NET.MVC.NUnit.ProjectTemplate.v4.csproj">
-      <Project>{4B4F7642-8B60-4066-8FE7-9173324A8D18}</Project>
-      <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v4</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v3.vb\ASP.NET.MVC.NUnit.ProjectTemplate.v3.vb.csproj">
+      <Project>{f4895cbd-8db7-452b-982f-cea3f2eee9dd}</Project>
+      <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v3.vb</Name>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
-      <TemplateType>Project</TemplateType>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <TemplateType>Project</TemplateType>
+    </ProjectReference>
+    <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs\ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs.csproj">
+      <Project>{4b4f7642-8b60-4066-8fe7-9173324a8d18}</Project>
+      <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs</Name>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <TemplateType>Project</TemplateType>
+    </ProjectReference>
+    <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb\ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb.csproj">
+      <Project>{fdfebac3-d757-4f93-b7f4-3e2bc005dfb2}</Project>
+      <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb</Name>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <TemplateType>Project</TemplateType>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
