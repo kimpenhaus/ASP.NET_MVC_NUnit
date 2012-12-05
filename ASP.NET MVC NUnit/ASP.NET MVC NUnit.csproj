@@ -110,6 +110,10 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <TemplateType>Project</TemplateType>
     </ProjectReference>
+    <ProjectReference Include="..\ASP.NET.MVC.NUnit.VS.Bootstrapper\ASP.NET.MVC.NUnit.VS.Bootstrapper.csproj">
+      <Project>{3d537b25-bd3f-4cb3-b692-f4e3b8e25ac0}</Project>
+      <Name>ASP.NET.MVC.NUnit.VS.Bootstrapper</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

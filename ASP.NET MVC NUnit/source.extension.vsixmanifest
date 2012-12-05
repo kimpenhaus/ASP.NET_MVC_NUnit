@@ -32,6 +32,7 @@
     </Reference>
   </References>
   <Content>
+    <Assembly AssemblyName="ASP.NET.MVC.NUnit.VS.Bootstrapper, Version=2012.3.1114.0, Culture=neutral, PublicKeyToken=null">ASP.NET.MVC.NUnit.VS.Bootstrapper.dll</Assembly>
     <VsPackage>ASP.NET.MVC.NUnit.pkgdef</VsPackage>
     <CustomExtension Type="NUnit">Packages\NUnit.2.6.0.12054.nupkg</CustomExtension>
     <ProjectTemplate>ProjectTemplates</ProjectTemplate>

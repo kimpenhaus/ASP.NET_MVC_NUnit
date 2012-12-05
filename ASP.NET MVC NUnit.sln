@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.MVC.NUnit.ProjectTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb", "ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb\ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb.csproj", "{FDFEBAC3-D757-4F93-B7F4-3E2BC005DFB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.MVC.NUnit.VS.Bootstrapper", "ASP.NET.MVC.NUnit.VS.Bootstrapper\ASP.NET.MVC.NUnit.VS.Bootstrapper.csproj", "{3D537B25-BD3F-4CB3-B692-F4E3B8E25AC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{FDFEBAC3-D757-4F93-B7F4-3E2BC005DFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDFEBAC3-D757-4F93-B7F4-3E2BC005DFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDFEBAC3-D757-4F93-B7F4-3E2BC005DFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D537B25-BD3F-4CB3-B692-F4E3B8E25AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D537B25-BD3F-4CB3-B692-F4E3B8E25AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D537B25-BD3F-4CB3-B692-F4E3B8E25AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D537B25-BD3F-4CB3-B692-F4E3B8E25AC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
