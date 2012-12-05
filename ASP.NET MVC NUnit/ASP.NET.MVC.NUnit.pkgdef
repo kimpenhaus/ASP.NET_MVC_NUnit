@@ -1,4 +1,9 @@
 ﻿[$RootKey$\Packages\{0B3D944F-14D6-4104-A69C-8F872746BA7F}]
+@=""
+
+[$RootKey$\AutoLoadPackages\{ADFC4E64-0397-11D1-9F4E-00A0C911004F}]
+"{0B3D944F-14D6-4104-A69C-8F872746BA7F}"=dword:00000000
+
 [$RootKey$\MVC3\TestProjectTemplates\NUnit]
 "Path"="CSharp\\Test"
 "Package"="{0B3D944F-14D6-4104-A69C-8F872746BA7F}"
