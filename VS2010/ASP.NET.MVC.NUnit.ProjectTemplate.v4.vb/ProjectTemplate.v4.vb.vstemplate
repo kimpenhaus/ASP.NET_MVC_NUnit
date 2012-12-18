@@ -1,0 +1,51 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+    <TemplateData>
+        <Name Package="{A1BB2B4F-244B-45DD-BA07-29367F54B826}"/>
+        <Description Package="{A1BB2B4F-244B-45DD-BA07-29367F54B826}"/>
+        <Icon>NUnitProject.ico</Icon>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Test</ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>MvcApplicationTest</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <Hidden>true</Hidden>
+        <TemplateID>MvcWebApplicationNUnitTestProjectTemplate.vb.vstemplate.v4</TemplateID>
+    </TemplateData>
+    <TemplateContent>
+        <Project File="MvcApplicationTest.vbproj" ReplaceParameters="true">
+            <Folder Name="My Project" TargetFolderName="My Project">
+                <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
+            </Folder>
+            <Folder Name="Controllers" TargetFolderName="Controllers">
+                <ProjectItem ReplaceParameters="true" TargetFileName="HomeControllerTest.vb">HomeControllerTest.vb</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+        </Project>
+    </TemplateContent>
+    <!-- NuGet 1.5 support -->
+    <WizardExtension>
+      <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+      <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+    </WizardExtension>
+    <WizardData>
+      <packages repository="extension" repositoryId="ASP.NET_MVC_NUnit.Microsoft.0b3d944f-14d6-4104-a69c-8f872746ba7f">
+          <package id="NUnit" version="2.6.0.12054" />
+      </packages>
+      <packages repository="registry" keyName="AspNetMvc4VS2010" isPreunzipped="true">
+        <package id="Microsoft.Web.Infrastructure" version="1.0.0.0" skipAssemblyReferences="true" />
+        <package id="Newtonsoft.Json" version="4.5.6" skipAssemblyReferences="true" />
+        <package id="Microsoft.AspNet.Razor" version="2.0.20710.0" skipAssemblyReferences="true" />
+        <package id="Microsoft.AspNet.WebPages" version="2.0.20710.0" skipAssemblyReferences="true" />
+        <package id="Microsoft.AspNet.Mvc" version="4.0.20710.0" skipAssemblyReferences="true" />
+        <package id="Microsoft.AspNet.WebApi.Client" version="4.0.20710.0" skipAssemblyReferences="true" />
+        <package id="Microsoft.Net.Http" version="2.0.20710.0" skipAssemblyReferences="true" />
+        <package id="Microsoft.AspNet.WebApi.Core" version="4.0.20710.0" skipAssemblyReferences="true" />
+        <package id="Microsoft.AspNet.WebApi.WebHost" version="4.0.20710.0" skipAssemblyReferences="true" />
+      </packages>
+    </WizardData>
+</VSTemplate>
