@@ -62,7 +62,7 @@
     <Content Include="preview.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\NUnit.2.6.0.12054.nupkg">
+    <Content Include="Packages\NUnit.2.6.2.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
@@ -94,6 +94,22 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <TemplateType>Project</TemplateType>
     </ProjectReference>
+    <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs.Empty\ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs.Empty.csproj">
+      <Project>{91D2038D-554C-41A0-AFBE-D056CEED7DC8}</Project>
+      <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs.Empty</Name>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <TemplateType>Project</TemplateType>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+    </ProjectReference>
+    <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs.WebApi\ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs.WebApi.csproj">
+      <Project>{5520E80B-578D-4F33-98D2-52A8524A7C1B}</Project>
+      <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs.WebApi</Name>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <TemplateType>Project</TemplateType>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+    </ProjectReference>
     <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs\ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs.csproj">
       <Project>{4b4f7642-8b60-4066-8fe7-9173324a8d18}</Project>
       <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v4.cs</Name>
@@ -102,6 +118,22 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <TemplateType>Project</TemplateType>
     </ProjectReference>
+    <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb.Empty\ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb.Empty.csproj">
+      <Project>{48FB6EAE-A7B0-42DE-BD1C-BC509773E94E}</Project>
+      <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb.Empty</Name>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <TemplateType>Project</TemplateType>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+    </ProjectReference>
+    <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb.WebApi\ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb.WebApi.csproj">
+      <Project>{0F475CFA-9C4D-47A8-A06D-CD26A96ACC67}</Project>
+      <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb.WebApi</Name>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <TemplateType>Project</TemplateType>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+    </ProjectReference>
     <ProjectReference Include="..\ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb\ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb.csproj">
       <Project>{fdfebac3-d757-4f93-b7f4-3e2bc005dfb2}</Project>
       <Name>ASP.NET.MVC.NUnit.ProjectTemplate.v4.vb</Name>
@@ -109,10 +141,6 @@
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <TemplateType>Project</TemplateType>
-    </ProjectReference>
-    <ProjectReference Include="..\ASP.NET.MVC.NUnit.VS.Bootstrapper\ASP.NET.MVC.NUnit.VS.Bootstrapper.csproj">
-      <Project>{3d537b25-bd3f-4cb3-b692-f4e3b8e25ac0}</Project>
-      <Name>ASP.NET.MVC.NUnit.VS.Bootstrapper</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

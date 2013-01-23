@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ASP.NET.MVC.NUnit.ProjectTemplate.v3.vb</RootNamespace>
     <AssemblyName>ASP.NET.MVC.NUnit.ProjectTemplate.v3.vb</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
@@ -61,22 +61,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Controllers\HomeControllerTest.cs" />
-    <None Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="MvcApplicationTest.csproj">
-      <SubType>Designer</SubType>
-    </None>
     <VSTemplate Include="ProjectTemplate.v3.vb.vstemplate">
       <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
   <ItemGroup>
     <None Include="NUnitProject.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Controllers\HomeControllerTest.vb" />
+    <None Include="MvcApplicationTest.vbproj" />
+    <None Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

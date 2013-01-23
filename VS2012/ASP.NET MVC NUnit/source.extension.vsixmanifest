@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="ASP.NET_MVC_NUnit.Microsoft.0b3d944f-14d6-4104-a69c-8f872746ba7f">
+  <Identifier Id="ASP.NET_MVC_NUnit.Microsoft.63914756-0878-4A78-8EF4-AAE3805CA0DB">
     <Name>ASP.NET MVC NUnit</Name>
     <Author>Marcus Kimpenhaus</Author>
     <Version>0.6</Version>
@@ -11,11 +11,6 @@
     <Icon>NUnitProject.gif</Icon>
     <PreviewImage>preview.png</PreviewImage>
     <SupportedProducts>
-      <VisualStudio Version="10.0">
-        <Edition>Ultimate</Edition>
-        <Edition>Premium</Edition>
-        <Edition>Pro</Edition>
-      </VisualStudio>
       <VisualStudio Version="11.0">
         <Edition>Ultimate</Edition>
         <Edition>Premium</Edition>
@@ -32,9 +27,8 @@
     </Reference>
   </References>
   <Content>
-    <Assembly AssemblyName="ASP.NET.MVC.NUnit.VS.Bootstrapper, Version=2012.3.1114.0, Culture=neutral, PublicKeyToken=null">ASP.NET.MVC.NUnit.VS.Bootstrapper.dll</Assembly>
     <VsPackage>ASP.NET.MVC.NUnit.pkgdef</VsPackage>
-    <CustomExtension Type="NUnit">Packages\NUnit.2.6.0.12054.nupkg</CustomExtension>
+    <CustomExtension Type="NUnit">Packages\NUnit.2.6.2.nupkg</CustomExtension>
     <ProjectTemplate>ProjectTemplates</ProjectTemplate>
     <ItemTemplate>ItemTemplates</ItemTemplate>
   </Content>

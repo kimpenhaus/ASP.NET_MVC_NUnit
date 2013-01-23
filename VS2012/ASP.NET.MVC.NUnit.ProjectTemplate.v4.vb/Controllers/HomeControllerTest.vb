@@ -2,12 +2,15 @@
 Imports System.Collections.Generic
 Imports System.Text
 Imports System.Web.Mvc
-Imports Microsoft.VisualStudio.TestTools.UnitTesting
+Imports NUnit.Framework
 Imports $mvcprojectnamespace$
+Imports $mvcprojectnamespace$.Controllers
 
-<TestClass()> Public Class HomeControllerTest
+Imports NIs = NUnit.Framework.Is
 
-    <TestMethod()> Public Sub Index()
+<TestFixture()> Public Class HomeControllerTest
+
+    <Test()> Public Sub Index()
         ' Arrange
         Dim controller As New HomeController()
 
@@ -16,10 +19,10 @@ Imports $mvcprojectnamespace$
 
         ' Assert
         Dim viewData As ViewDataDictionary = result.ViewData
-        Assert.AreEqual("Modify this template to jump-start your ASP.NET MVC application.", viewData("Message"))
+        Assert.That("Modify this template to jump-start your ASP.NET MVC application.", NIs.EqualTo(viewData("Message")))
     End Sub
 
-    <TestMethod()> Public Sub About()
+    <Test()> Public Sub About()
         ' Arrange
         Dim controller As New HomeController()
 
@@ -27,10 +30,10 @@ Imports $mvcprojectnamespace$
         Dim result As ViewResult = DirectCast(controller.About(), ViewResult)
 
         ' Assert
-        Assert.IsNotNull(result)
+        Assert.That(result, NIs.Not.Null)
     End Sub
 
-    <TestMethod()> Public Sub Contact()
+    <Test()> Public Sub Contact()
         ' Arrange
         Dim controller As New HomeController()
 
@@ -38,6 +41,6 @@ Imports $mvcprojectnamespace$
         Dim result As ViewResult = DirectCast(controller.Contact(), ViewResult)
 
         ' Assert
-        Assert.IsNotNull(result)
+        Assert.That(result, NIs.Not.Null)
     End Sub
 End Class
