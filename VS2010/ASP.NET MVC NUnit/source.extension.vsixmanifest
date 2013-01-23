@@ -16,12 +16,6 @@
         <Edition>Premium</Edition>
         <Edition>Pro</Edition>
       </VisualStudio>
-      <VisualStudio Version="11.0">
-        <Edition>Ultimate</Edition>
-        <Edition>Premium</Edition>
-        <Edition>Pro</Edition>
-        <Edition>IntegratedShell</Edition>
-      </VisualStudio>
     </SupportedProducts>
     <SupportedFrameworkRuntimeEdition MinVersion="2.0" MaxVersion="4.5" />
   </Identifier>
@@ -33,7 +27,7 @@
   </References>
   <Content>
     <VsPackage>ASP.NET.MVC.NUnit.pkgdef</VsPackage>
-    <CustomExtension Type="NUnit">Packages\NUnit.2.6.0.12054.nupkg</CustomExtension>
+    <CustomExtension Type="NUnit">Packages\NUnit.2.6.2.nupkg</CustomExtension>
     <ProjectTemplate>ProjectTemplates</ProjectTemplate>
     <ItemTemplate>ItemTemplates</ItemTemplate>
   </Content>

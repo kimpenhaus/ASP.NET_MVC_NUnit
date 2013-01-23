@@ -6,6 +6,8 @@ Imports NUnit.Framework
 Imports $mvcprojectnamespace$
 Imports $mvcprojectnamespace$.Controllers
 
+Imports NIs = NUnit.Framework.Is
+
 <TestFixture()> Public Class HomeControllerTest
 
     <Test()> Public Sub Index()
@@ -17,7 +19,7 @@ Imports $mvcprojectnamespace$.Controllers
 
         ' Assert
         Dim viewData As ViewDataDictionary = result.ViewData
-        Assert.That("Welcome to ASP.NET MVC!", Is.EqualTo(viewData("Message")))
+        Assert.That("Welcome to ASP.NET MVC!", NIs.EqualTo(viewData("Message")))
     End Sub
 
     <Test()> Public Sub About()
@@ -28,6 +30,6 @@ Imports $mvcprojectnamespace$.Controllers
         Dim result As ViewResult = CType(controller.About(), ViewResult)
 
         ' Assert
-        Assert.That(result, Is.Not.Null)
+        Assert.That(result, NIs.Not.Null)
     End Sub
 End Class

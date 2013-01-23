@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name Package="{141DA93E-88A7-45D5-B15B-89117F514D64}" ID="21202"/>
-    <Description Package="{141DA93E-88A7-45D5-B15B-89117F514D64}" ID="21203"/>
+    <Name Package="{141DA93E-88A7-45D5-B15B-89117F514D64}" ID="21232"/>
+    <Description Package="{141DA93E-88A7-45D5-B15B-89117F514D64}" ID="21233"/>
     <Icon>NUnitProject.ico</Icon>
-    <ProjectType>CSharp</ProjectType>
+    <ProjectType>VisualBasic</ProjectType>
     <ProjectSubType>Test</ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
@@ -15,22 +15,21 @@
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
     <Hidden>true</Hidden>
-    <TemplateID>MvcWebApplicationNUnitTestProjectTemplate.cs.vstemplate.v4</TemplateID>
+    <TemplateID>MvcWebApiTestProjectTemplate.vb.vstemplate.v4</TemplateID>
   </TemplateData>
   <TemplateContent>
-    <Project File="MvcApplicationTest.csproj" ReplaceParameters="true">
-      <Folder Name="Properties" TargetFolderName="Properties">
-        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+    <Project File="MvcWebApiTest.vbproj" ReplaceParameters="true">
+      <Folder Name="My Project" TargetFolderName="My Project">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
       </Folder>
       <Folder Name="Controllers" TargetFolderName="Controllers">
-        <ProjectItem ReplaceParameters="true" TargetFileName="HomeControllerTest.cs">HomeControllerTest.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ValuesControllerTest.vb">ValuesControllerTest.vb</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
     </Project>
   </TemplateContent>
-  <!-- NuGet 1.5 support -->
   <WizardExtension>
-    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
     <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
   </WizardExtension>
   <WizardData>
@@ -50,3 +49,4 @@
     </packages>
   </WizardData>
 </VSTemplate>
+
