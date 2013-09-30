@@ -3,7 +3,7 @@
   <Identifier Id="ASP.NET_MVC_NUnit.Microsoft.63914756-0878-4A78-8EF4-AAE3805CA0DB">
     <Name>ASP.NET MVC NUnit</Name>
     <Author>Marcus Kimpenhaus</Author>
-    <Version>0.6</Version>
+    <Version>0.6.1</Version>
     <Description xml:space="preserve">Adds a project and an item template to generate NUnit based tests of ASP.NET MVC 3 and ASP.NET MVC 4 applications. NUnit as NuGet package is included and does not require any dedicated installation anymore.</Description>
     <Locale>1033</Locale>
     <MoreInfoUrl>http://visualstudiogallery.msdn.microsoft.com/3c266165-7142-4012-974c-fa750cf97850</MoreInfoUrl>
